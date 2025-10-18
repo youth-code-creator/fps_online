@@ -1,5 +1,5 @@
 // 서버 URL
-const socket = io('https://YOUR_VERCEL_SERVER_URL');
+const socket = io('https://fps-online.vercel.app');
 
 // 씬, 카메라, 렌더러
 const scene = new THREE.Scene();
