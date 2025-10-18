@@ -1,0 +1,23 @@
+/* 브라우저 기본 마진 제거 */
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #202020; /* 바닥과 구분되는 배경색 */
+    font-family: Arial, sans-serif;
+}
+
+/* Three.js 렌더러 캔버스 전체 화면 */
+canvas {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* 점수, 체력 UI (나중에 추가할 때) */
+#ui {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 16px;
+}
